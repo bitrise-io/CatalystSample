@@ -49,6 +49,7 @@
 		13917C33243F43D10087912B /* Catalyst SampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Catalyst SampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13917C37243F43D10087912B /* Catalyst_SampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Catalyst_SampleUITests.swift; sourceTree = "<group>"; };
 		13917C39243F43D10087912B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13917C45243F44BA0087912B /* Catalyst Sample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Catalyst Sample.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +100,7 @@
 		13917C14243F43D00087912B /* Catalyst Sample */ = {
 			isa = PBXGroup;
 			children = (
+				13917C45243F44BA0087912B /* Catalyst Sample.entitlements */,
 				13917C15243F43D00087912B /* AppDelegate.swift */,
 				13917C17243F43D00087912B /* SceneDelegate.swift */,
 				13917C19243F43D00087912B /* ContentView.swift */,
@@ -434,6 +436,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Catalyst Sample/Catalyst Sample.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Catalyst Sample/Preview Content\"";
 				DEVELOPMENT_TEAM = DT2C2FZ7U2;
@@ -445,6 +448,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "io.bitrise.Catalyst-Sample";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -454,6 +458,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Catalyst Sample/Catalyst Sample.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Catalyst Sample/Preview Content\"";
 				DEVELOPMENT_TEAM = DT2C2FZ7U2;
@@ -465,6 +470,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "io.bitrise.Catalyst-Sample";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
