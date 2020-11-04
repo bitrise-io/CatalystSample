@@ -438,7 +438,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Catalyst Sample/Catalyst Sample.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer: Dev Portal Bot Bitrise (E89JV3W9K4)";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "iPhone Developer: Dev Portal Bot Bitrise (E89JV3W9K4)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer: Dev Portal Bot Bitrise (E89JV3W9K4)";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_ASSET_PATHS = "\"Catalyst Sample/Preview Content\"";
 				DEVELOPMENT_TEAM = 72SA8V3WYL;
@@ -450,8 +450,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "io.bitrise.Catalyst-Sample";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "BitriseBot-Wildcard";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "Bitrise Mac Wildcard Development Profile";
+				PROVISIONING_PROFILE_SPECIFIER = "development-io-bitrise-ios";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "development-io-bitrise-macos";
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -464,7 +464,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Catalyst Sample/Catalyst Sample.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer: Dev Portal Bot Bitrise (E89JV3W9K4)";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "iPhone Developer: Dev Portal Bot Bitrise (E89JV3W9K4)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer: Dev Portal Bot Bitrise (E89JV3W9K4)";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_ASSET_PATHS = "\"Catalyst Sample/Preview Content\"";
 				DEVELOPMENT_TEAM = 72SA8V3WYL;
@@ -476,8 +476,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "io.bitrise.Catalyst-Sample";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "BitriseBot-Wildcard";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "Bitrise Mac Wildcard Development Profile";
+				PROVISIONING_PROFILE_SPECIFIER = "development-io-bitrise-ios";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "development-io-bitrise-macos";
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
